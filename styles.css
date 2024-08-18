@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* for navbar*/
+.navbar{
+    padding: 3% 5%;
+}
+.navbar a{
+    text-decoration: none;
+    color:navy;
+}
+.logo{
+    font-size: large;
+}
+.logo,.nav-links,.nav-links li{
+    display: inline;
+}
+.nav-links {
+    list-style: none;
+    float: right;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: navy;
+    font-size: 16px;
+}
+
+/*for hero section*/
+.hero{
+    padding: 3% 5%;
+    background-color: navy;
+    height: 85vh;
+}
+.left-section,
+.right-section {
+    display: inline-block;
+}
+
+
+.left-section {
+    width: 50%;
+}
+.right-section{
+    float: right;
+    width: 50%;
+}
+
+.left-section h2 {
+    color: #f9eaff;
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+.left-section h1 {
+    color: #f9eaff;
+    font-size: 300%;
+    margin-bottom: 10%; 
+}
+.dropdown {
+    margin-bottom: 10%;
+}
+select {
+    width: 50%;
+    /* width: 300px; */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f9eaff;
+    border-radius: 4px;
+}
+.explore-button{
+    padding: 2% 3%;
+    background-color: #f9eaff;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px white solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.explore-button:hover{
+    background-color: navy;
+    color: #f9eaff;
+    transform: scale(0.9);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.explore-button:active{
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+
+.right-section img{
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 92%;
+    margin-left: 10%;
+}
+
+/* Destinations Section */
+.destinations{
+    height: max-content;
+    padding: 3% 5%;
+    background-color: #f9eaff;
+}
+.destinations h2{
+    font-size: 48px;
+}
+.destinations p {
+    font-size: 24px;
+}
+.destination-list{
+    width: 100%;
+}
+.destination-item{
+    width: 33%;
+    display: inline-block;
+    text-align:center;
+    margin-top: 5%;
+}
+.destination-item img{
+    width: 80%;
+}
+.destination-item h3{
+    font-size: 150%;
+    margin-top: 3%;
+}
+.destination-item h4{
+    margin-top: 3%;
+    font-size: 100%;
+}
+
+.destination-item button{
+    margin-top: 3%;
+    padding: 2% 3%;
+    background-color: navy;
+    color: #f9eaff;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px navy solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.destination-item button:hover{
+    background-color: #f9eaff;
+    color: navy;
+    transform: scale(0.9);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.destination-item button:active{
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+/*contact*/
+.contact{
+    width:100%;
+    padding: 3% 5%;
+    background-color: navy;
+}
+.contact h2 {
+    color: #f9eaff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact p {
+    color: #f9eaff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact form input,
+.contact form select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    display:block;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+
+.contact button{
+    padding: 10px 20px;
+    background-color: #f9eaff;
+    color: navy;
+    width: 20%;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px white solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.contact button:hover{
+    background-color: navy;
+    color: #f9eaff;
+    transform: scale(0.9);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.contact button:active{
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+
